@@ -1,4 +1,7 @@
 .profile {
+    position: absolute;
+    top: 15px;
+    left: 50px;
     border: 1px solid gray;
     box-shadow: 3px 3px 3px gray;
     padding-top: 15px;

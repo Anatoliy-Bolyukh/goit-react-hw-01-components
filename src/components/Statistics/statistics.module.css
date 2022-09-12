@@ -1,5 +1,9 @@
 .statistics {
+    position: absolute;
+    align-items: center;
     width: 360px;
+    top: 15px;
+    right: 50px;
 }
 
 .title {

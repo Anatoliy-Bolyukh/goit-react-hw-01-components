@@ -1,4 +1,7 @@
 .table {
+    position: absolute;
+    top: 15px;
+    right: 550px;
     width: 500px;
     margin-bottom: 20px;
     border: 1px solid #dddddd;
