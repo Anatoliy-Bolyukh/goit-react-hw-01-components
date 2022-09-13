@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import css from '../Profile/profile.module.css'
 
-const Profile = ({ name, tag, location, avatar, stats: { followers, views, likes } }) => (
+const Profile = ({ user, tag, location, avatar, stats: { followers, views, likes } }) => (
     <div className={css.profile}>
         <div className={css.description}>
             <img
@@ -9,7 +9,7 @@ const Profile = ({ name, tag, location, avatar, stats: { followers, views, likes
                 alt="User avatar"
                 className={css.avatar}
             />
-            <p className={css.name}> Name: {name}</p>
+            <p className={css.name}> Name: {user}</p>
             <p className={css.tag}> @: {tag}</p>
             <p className={css.location}>location: {location}</p>
         </div>
