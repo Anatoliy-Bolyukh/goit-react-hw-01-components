@@ -12,7 +12,7 @@ import TransactionHistory from '../components/TransactionHistory/TransactionHist
 export const App = () => {
   return (
     <>
-      <Profile user={user.username} tag={user.tag} location={user.location} avatar={user.avatar} stats={user.stats} />
+      <Profile username={user.username} tag={user.tag} location={user.location} avatar={user.avatar} stats={user.stats} />
       <Statistics title="Upload stats" stats={data} />
       <FriendList friends={friends} />
       <TransactionHistory items={transactions} />
