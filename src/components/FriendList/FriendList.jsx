@@ -8,7 +8,7 @@ const FriendList = ({ friends }) => {
             {friends.map(({ id, isOnline, avatar, name }) => {
                 return (
                     <li className={css.item} key={id}>
-                        <span className="status">{isOnline}</span>
+                        <span className={css.status} style={{ backgroundColor: isOnline ? "green" : "red" }}></span>
                         <img className={css.avatar} src={avatar} alt="User avatar" width="48" />
                         <p className={css.name}>{name}</p>
                     </li>
